@@ -4,7 +4,7 @@ maintainer_email "cookbooks@opscode.com"
 license          "Apache 2.0"
 description      "Installs/Configures tomcat"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.11.1"# Actual version is 0.11.1+di.1, but Chef chokes on build numbers.
+version          "0.11.2"# Actual version is 0.11.2+di.1, but Chef chokes on build numbers.
 
 %w{ java }.each do |cb|
   depends cb
